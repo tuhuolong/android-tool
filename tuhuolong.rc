@@ -1,0 +1,11 @@
+alias log="adb logcat|grep miio-app"
+alias un="adb uninstall com.xiaomi.smarthome"
+alias windows="adb shell dumpsys window"
+
+export PATH=~/android-tool/dex2jar-0.0.9.15:$PATH
+export PATH=~/android-tool/apktool:$PATH
+export PATH=~/android-tool/jad:$PATH
+export PATH=~/android-tool/proguard5.2beta3/bin:$PATH
+export NDK_ROOT=~/android-tool/android-ndk-r10d
+export ANDROID_NDK_HOME=~/android-tool/android-ndk-r9d
+export GRADLE_HOME=~/android-tool/gradle-2.2.1
